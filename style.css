@@ -1,0 +1,52 @@
+/* style.css */
+
+html, 
+body{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+
+/* cover */
+#cover{
+    background:#222 url('images/cover.jpg') top center no-repeat;
+    background-size:cover; 
+    color: white;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#cover-caption{
+    width: 100%;
+}
+
+/* what we do */
+
+#section-content{
+    padding: 5rem 0; 
+}
+
+/* About */
+
+#about{
+    background: url('images/carousel/3.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+/* Footer*/
+
+.footer-main{
+    background-color: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}

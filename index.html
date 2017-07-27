@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap 4 Basic Site</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 offset-sm-1">
+                        <h1 class="display-3">Welcome to Bootstrap</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima vitae vel sapiente cum neque sit! Quaerat quibusdam fuga,
+                            natus voluptates odit veritatis numquam.
+                        </p>
+                        <form class="form-inline justify-content-sm-center ">
+                            <div class="form-group">
+                                <label class="sr-only">Name</label>
+                                <input type="text" class="form-control form-control-md" placeholder="Sudheer">
+                            </div>
+                            <div class="form-group">
+                                <label class="sr-only">Email</label>
+                                <input type="text" class="form-control form-control-md" placeholder="sudheer@gmail.com">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-md">okay, go!</button>
+                            </div>
+                        </form>
+                        <br>
+                        <a href="#nav-main" class="btn btn-outline-secondary btn-sm" role="button">&darr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-toggleable-sm navbar-dark bg-inverse navbar-full" id="nav-main">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Logo Here</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <section id="carousel">
+        <div id="carouselHome" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselHome" data-slide-to="1"></li>
+                <li data-target="#carouselHome" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="images/carousel/1.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <h2>San Francisco Beach</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, fuga.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="images/carousel/2.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h2>San Francisco Beach</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, fuga.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="images/carousel/3.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h2>San Francisco Beach</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, fuga.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="what-we-do">
+        <div id="section-content">
+            <div class="container">
+                <h3>What We Do</h3>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt aut est sed, aliquid eveniet non!</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Stratagy &amp; Planing </h4>
+                                    <h6 class="card-subtitle">Support Card Subtitle</h6>
+                                </div>
+                                <img src="images/carousel/1.jpg" alt="Card1 Image">
+                                <div class="card-block">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae, natus maxime, sunt ea ut.
+                                    </p>
+                                    <button class="btn btn-outline-success" data-toggle="model" data-target="#myModal">Learn More</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Creative &amp; Design </h4>
+                                    <h6 class="card-subtitle">Support Card Subtitle</h6>
+                                </div>
+                                <img src="images/carousel/2.jpg" alt="Card1 Image">
+                                <div class="card-block">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae, natus maxime, sunt ea ut.
+                                    </p>
+                                    <button class="btn btn-outline-success" data-toggle="model" data-target="#myModal">Learn More</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Programming &amp; Technical </h4>
+                                    <h6 class="card-subtitle">Support Card Subtitle</h6>
+                                </div>
+                                <img src="images/carousel/3.jpg" alt="Card1 Image">
+                                <div class="card-block">
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero beatae, natus maxime, sunt ea ut.
+                                    </p>
+                                    <button class="btn btn-outline-success" data-toggle="model" data-target="#myModal">Learn More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <section id="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About Us</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima tempore accusamus voluptates officia, veniam asperiores consectetur non eveniet, quo repudiandae laudantium obcaecati ipsa, aspernatur iusto error unde placeat neque enim!</p>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis maxime nulla voluptas! Recusandae suscipit iure quidem, nulla perferendis eum, nisi fugit sint harum, corrupti debitis iusto itaque velit earum necessitatibus.</p>
+
+                        <h5>Follow us on the web</h5>
+                        <a href="" class="btn btn-sm btn-outline-secondary">LinkedIn</a>
+                        <a href="" class="btn btn-sm btn-outline-secondary">Twiter</a>
+                        <a href="" class="btn btn-sm btn-outline-secondary">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p> 2017, Coded by <a href="https://kumardss.github.io" target="_blank">Sudheer Kumar</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="#cover">Home</a></li>
+                        <li><a href="#what-we-do">What we do</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">LinkedIn</a></li>
+                        <li><a href="">Twiter</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Title</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, accusantium.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
